@@ -2,7 +2,7 @@ var span = $('span');
 
 span.each(function(index, element) {
     if (index %1==0) {
-        $(element).css('color', 'yellow')
+        $(element).css('color', 'red')
     };
 });
 
