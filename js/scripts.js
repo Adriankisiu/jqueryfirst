@@ -1,8 +1,8 @@
 var span = $('span');
 
 span.each(function(index, element) {
-    if (index %1==0) {
-        $(element).css('color', 'yellow')
+    if(index % 2 == 0) {
+        $(element).css('color', 'red')
     };
 });
 
